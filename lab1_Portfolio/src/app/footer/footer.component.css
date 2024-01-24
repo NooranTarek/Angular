@@ -1,0 +1,29 @@
+footer{
+    margin-left: 105px;
+    width: 1140px;
+}
+.social-icon {
+    margin-left: 10px;
+    color: #ffffff; 
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  i{
+    margin-left: 20px;
+    margin-right: -10px;
+  }
+  .fa-facebook{
+    color: rgb(52, 52, 218);
+  }
+  .fa-twitter{
+    color: rgb(32, 157, 189);
+
+  }
+  .fa-linkedin{
+    color: rgb(59, 111, 170);
+
+  }
+  .fa-instagram{
+    color: rgb(184, 60, 167);
+
+  }

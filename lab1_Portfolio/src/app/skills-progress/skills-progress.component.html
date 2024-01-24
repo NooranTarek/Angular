@@ -1,0 +1,13 @@
+
+<div class="container mt-4">
+    <h2>Skills</h2>
+    <div *ngFor="let skill of skills">
+      <h4>{{ skill.name }}</h4>
+      <div class="progress">
+        <div class="progress-bar" [style.width]="skill.progress + '%'"></div>
+        <p> {{ skill.progress }}
+        </p>
+      </div>
+    </div>
+  </div>
+  

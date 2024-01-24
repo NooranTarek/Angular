@@ -1,0 +1,26 @@
+/* hero-section.component.css */
+
+.div1 {
+  background-image: url('/assets/background2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border-color: rgb(151, 123, 0);
+}
+
+.img-fluid {
+  border: 4px solid rgb(151, 123, 0);
+}

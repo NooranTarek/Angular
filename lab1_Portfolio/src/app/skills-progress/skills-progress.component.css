@@ -1,0 +1,21 @@
+div{
+    color: rgb(99, 84, 0);
+
+}
+h2{
+    color: rgb(255, 255, 255);
+
+}
+p{
+    font-size: 15px;
+    margin-top: 6px;
+    font-weight: bold;
+    color: rgb(99, 84, 0);
+}
+.progress-bar {
+    background-color: #c7a81f; 
+  }
+  .container{
+    background-color:rgb(0, 0, 0) ;
+    height: 460px;
+  }
