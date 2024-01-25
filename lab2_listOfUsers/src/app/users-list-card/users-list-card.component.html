@@ -1,0 +1,14 @@
+<div class="card border-danger text-dark bg-warning mb-3">
+  <img [src]="userItem.image" class="card-img-top" />
+  <div class="card-body">
+    @if(userItem.is_verified){
+    <i class="fa fa-regular fa-star" [ngStyle]="{ color: 'green' }"></i>
+    } @else {
+    <i class="fa fa-regular fa-star" [ngStyle]="{ color: 'red' }"></i>
+    }
+
+    <p class="card-title">{{ userItem.username }}</p>
+    <p class="card-text">{{ userItem.email }}</p>
+    <p class="card-text">{{ userItem.phone }}</p>
+  </div>
+</div>

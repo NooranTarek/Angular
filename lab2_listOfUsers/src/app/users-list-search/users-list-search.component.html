@@ -1,0 +1,28 @@
+
+<div class="container mt-3">
+    <input
+      type="text"
+      class="form-control mb-3"
+      placeholder="Search by Email"
+      [(ngModel)]="searchTerm"
+      (input)="search()"
+    />
+  
+    <div *ngIf="filteredUsers && filteredUsers.length > 0">
+            <body>
+                <div class="container">
+                  <div class="row">
+                    @for (user of filteredUsers; track user.id) {
+                    <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+                      <app-users-list-card [userItem]="user" ></app-users-list-card>
+                    </div>
+                  }
+                  </div>
+                </div>
+              </body>
+    </div>
+  
+    <div *ngIf="filteredUsers && filteredUsers.length === 0">
+      No results found.
+    </div>
+  </div>
